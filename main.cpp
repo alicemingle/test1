@@ -1,7 +1,6 @@
 #include "StringBuffer.h"
 
-int main(void)
-{
+int main(void) {
     StringBuffer Test(3, "0123456789");
     Test.print();
     Test.clean();
