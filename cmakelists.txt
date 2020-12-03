@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.1)
+
+project(StringBuffer)
+
+include_directories(${PROJECT_SOURCE_DIR})
+
+set (STRING_BUFFER_SRC  main.cpp StringBuffer.cpp Node.cpp)
+set (STRING_BUFFER_HDR  StringBuffer.h Node.h)
+
+add_executable (${PROJECT_NAME} ${STRING_BUFFER_SRC} ${STRING_BUFFER_HDR})
